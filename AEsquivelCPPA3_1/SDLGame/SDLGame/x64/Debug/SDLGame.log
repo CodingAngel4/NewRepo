@@ -1,0 +1,10 @@
+﻿  pickup.cpp
+C:\Users\aesqu\OneDrive\Desktop\Other Lang\AdvancedProgramming\Sum21\AEsquivelCPPA3_1\SDLGame\SDLGame\pickup.cpp(9,23): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\aesqu\OneDrive\Desktop\Other Lang\AdvancedProgramming\Sum21\AEsquivelCPPA3_1\SDLGame\SDLGame\pickup.cpp(41,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\aesqu\OneDrive\Desktop\Other Lang\AdvancedProgramming\Sum21\AEsquivelCPPA3_1\SDLGame\SDLGame\pickup.cpp(42,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\aesqu\OneDrive\Desktop\Other Lang\AdvancedProgramming\Sum21\AEsquivelCPPA3_1\SDLGame\SDLGame\pickup.cpp(56,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\aesqu\OneDrive\Desktop\Other Lang\AdvancedProgramming\Sum21\AEsquivelCPPA3_1\SDLGame\SDLGame\pickup.cpp(57,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\aesqu\OneDrive\Desktop\Other Lang\AdvancedProgramming\Sum21\AEsquivelCPPA3_1\SDLGame\SDLGame\pickup.cpp(71,18): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\aesqu\OneDrive\Desktop\Other Lang\AdvancedProgramming\Sum21\AEsquivelCPPA3_1\SDLGame\SDLGame\pickup.cpp(72,18): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\aesqu\OneDrive\Desktop\Other Lang\AdvancedProgramming\Sum21\AEsquivelCPPA3_1\SDLGame\SDLGame\pickup.cpp(74,24): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  SDLGame.vcxproj -> C:\Users\aesqu\OneDrive\Desktop\Other Lang\AdvancedProgramming\Sum21\AEsquivelCPPA3_1\SDLGame\x64\Debug\SDLGame.exe
