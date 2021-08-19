@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_949602d3d76a479697b2feecf2d837c4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_949602d3d76a479697b2feecf2d837c4" ></div>
+        
+</body>
+<script>    
+    
+            var map_949602d3d76a479697b2feecf2d837c4 = L.map(
+                "map_949602d3d76a479697b2feecf2d837c4",
+                {
+                    center: [41.382, 2.163],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ada559c2a6f044e094823f44ac73b402 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_949602d3d76a479697b2feecf2d837c4);
+        
+    
+            var circle_marker_ba6df3e5586f4b5885cd8570ce437505 = L.circleMarker(
+                [41.382, 2.163],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 150, "stroke": true, "weight": 3}
+            ).addTo(map_949602d3d76a479697b2feecf2d837c4);
+        
+    
+        var popup_81a69d8fc27e48a083e776b0fa6d8758 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aaa81591530944c385d7aa05c6984a8f = $(`<div id="html_aaa81591530944c385d7aa05c6984a8f" style="width: 100.0%; height: 100.0%;">Barcelona</div>`)[0];
+            popup_81a69d8fc27e48a083e776b0fa6d8758.setContent(html_aaa81591530944c385d7aa05c6984a8f);
+        
+
+        circle_marker_ba6df3e5586f4b5885cd8570ce437505.bindPopup(popup_81a69d8fc27e48a083e776b0fa6d8758)
+        ;
+
+        
+    
+    
+            var marker_8f9f5753ae89442ebbe498631db81146 = L.marker(
+                [41.382, 2.163],
+                {}
+            ).addTo(map_949602d3d76a479697b2feecf2d837c4);
+        
+    
+            var marker_5553a7b51c49409387afd0f8351f2250 = L.marker(
+                [41.381, 2.122],
+                {}
+            ).addTo(map_949602d3d76a479697b2feecf2d837c4);
+        
+    
+        var popup_29c9ccb35ce04f598f2dd8a53ea8a08b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e0a2a113a9446ce80b9d4ef5ab32763 = $(`<div id="html_3e0a2a113a9446ce80b9d4ef5ab32763" style="width: 100.0%; height: 100.0%;">Camp Nou</div>`)[0];
+            popup_29c9ccb35ce04f598f2dd8a53ea8a08b.setContent(html_3e0a2a113a9446ce80b9d4ef5ab32763);
+        
+
+        marker_5553a7b51c49409387afd0f8351f2250.bindPopup(popup_29c9ccb35ce04f598f2dd8a53ea8a08b)
+        ;
+
+        
+    
+    
+            var poly_line_ef3ca459db6b4030a7e0db501634edc0 = L.polyline(
+                [[41.382, 2.163], [41.381, 2.122]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_949602d3d76a479697b2feecf2d837c4);
+        
+</script>

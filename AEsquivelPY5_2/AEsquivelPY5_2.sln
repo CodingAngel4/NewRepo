@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "AEsquivelPY5_2", "AEsquivelPY5_2\AEsquivelPY5_2.pyproj", "{953EEAC0-F944-4C2D-94AD-2A4A85243484}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{953EEAC0-F944-4C2D-94AD-2A4A85243484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{953EEAC0-F944-4C2D-94AD-2A4A85243484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3D45E1F-C28B-4349-8558-1279D691B8C8}
+	EndGlobalSection
+EndGlobal
